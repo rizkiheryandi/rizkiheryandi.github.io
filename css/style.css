@@ -440,11 +440,7 @@ button:focus,
     bottom     : 0;
     padding    : 30px 15px 5px;
     width      : 100%;
-    background : -webkit-linear-gradient(
-            top,
-            transparent 0%,
-            rgba(0, 0, 0, 0.5) 100%
-    );
+    background : -webkit-linear-gradient(top,transparent 0%,rgb(0, 0, 0) 100%);
     }
 
 .portfolio-item .portfolio-info h3 {
@@ -461,7 +457,7 @@ button:focus,
     background : -webkit-linear-gradient(
             top,
             transparent 0%,
-            rgba(42, 84, 245, 0.5) 100%
+            rgba(42, 89, 245, 0.932) 100%
     );
     }
 
