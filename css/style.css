@@ -422,10 +422,18 @@ button:focus,
     }
 
 .portfolio-item .portfolio-thumb img {
-    height    : 150px; // Awalnya auto
+    /* height    : auto; */
     display   : block;
-    max-width : 100%;
+    /* max-width : 100%; */
+    height: 150px;
+    width: 100%;
     }
+
+@media screen and (min-width: 1441px) {
+    .portfolio-item .portfolio-thumb img {
+        height: 220px;
+    }
+}
 
 .portfolio-item .portfolio-info {
     position   : absolute;
