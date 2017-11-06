@@ -438,10 +438,17 @@ button:focus,
 .portfolio-item .portfolio-info {
     position   : absolute;
     bottom     : 0;
-    padding    : 30px 15px 5px;
+    /* padding    : 30px 15px 5px; */
+    padding: 10px;
     width      : 100%;
     background : -webkit-linear-gradient(top,transparent 0%,rgb(0, 0, 0) 100%);
     }
+
+@media screen and (max-width:1024px) and (min-width: 998px) {
+    .portfolio-item .portfolio-info {
+        padding: 5px;
+    }
+}
 
 .portfolio-item .portfolio-info h3 {
     margin      : 0;
