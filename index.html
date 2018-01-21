@@ -299,14 +299,6 @@
 
                     <p>Indonesia</p>
                 </div>
-                <!-- .experience-item -->
-                <div class="content-item">
-                    <small>2017 - Present</small>
-                    <h3>Chief Executive Officer</h3>
-                    <h4>butuhserver.co.id</h4>
-
-                    <p>Indonesia</p>
-                </div>
             </div>
         </div>
         <!--.row-->
@@ -441,7 +433,7 @@
                 <!-- .portfolio-item -->
             </div>
             <div class="col-md-6">
-                <a class="portfolio-item" href="Rahasia" target="_blank">
+                <a class="portfolio-item"  data-toggle="modal" data-target="#not-public-modal">
                     <div class="portfolio-thumb">
                         <img src="img/dashboard-antaran.jpg" alt="">
                     </div>
@@ -486,13 +478,13 @@
                 <!-- .portfolio-item -->
             </div>
             <div class="col-md-6">
-                <a class="portfolio-item" href="#" target="_blank">
+                <a class="portfolio-item" data-toggle="modal" data-target="#not-available-modal">
                     <div class="portfolio-thumb">
                         <img src="img/coming-soon.gif" alt="">
                     </div>
 
                     <div class="portfolio-info">
-                        <h3>PT Uatech Digital Kreatif</h3>
+                        <h3>PT Uatech</h3>
                         <small>uatech.co.id</small>
                     </div>
                     <!-- portfolio-info -->
@@ -515,14 +507,15 @@
                 <!-- .portfolio-item -->
             </div>
             <div class="col-md-6">
-                <a class="portfolio-item" href="#" target="_blank">
+                <a class="portfolio-item" href="//minangitcamp.com" target="_blank">
                     <div class="portfolio-thumb">
-                        <img src="img/coming-soon.gif" alt="">
+                        <img src="img/minangitcamp.jpg" alt="">
                     </div>
 
                     <div class="portfolio-info">
-                        <h3>butuhserver.co.id</h3>
-                        <small>butuhserver.co.id</small>
+                        <h3>PT Nusantech</h3>
+                        <small>minangitcamp.com</small>
+                        <br/><small>PHP (LARAVEL), HTML5, CSS3 (SASS, BOOTSTRAP4), GULP BUNDLER, NPM DEPENDENCY</small>
                     </div>
                     <!-- portfolio-info -->
                 </a>
@@ -559,7 +552,7 @@
                 <!-- .portfolio-item -->
             </div>
             <div class="col-md-6">
-                <a class="portfolio-item" href="#" target="_blank">
+                <a class="portfolio-item"  data-toggle="modal" data-target="#not-public-modal">
                     <div class="portfolio-thumb">
                         <img src="img/cariharga-api.jpg" alt="">
                     </div>
@@ -574,7 +567,7 @@
                 <!-- .portfolio-item -->
             </div>
             <div class="col-md-6">
-                <a class="portfolio-item" href="#" target="_blank">
+                <a class="portfolio-item"  data-toggle="modal" data-target="#not-public-modal">
                     <div class="portfolio-thumb">
                         <img src="img/coming-soon.gif" alt="">
                     </div>
@@ -667,8 +660,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="copytext">&copy; 2015 All rights reserved | My lovely designer: <a
-                            href="https://themehippo.com" style="color: #000;">ThemeHippo</a></div>
+                    <div class="copytext">My other site <a href="https://uatech.co.id" target="_blank">uatech.co.id</a> | <a target="_blank" href="https://cariharga.co.id">cariharga.co.id</a> <a
+                            href="https://themehippo.com" style="color: #000; visibility: hidden;">ThemeHippo</a></div>
                 </div>
             </div>
             <!--.row-->
@@ -700,6 +693,35 @@
 
     </div>
 </div>
+
+<div id="not-public-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Not for public, sorry ;)</h4>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="not-available-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Not available now, sorry ;)</h4>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 
 <!-- jquery -->
 <script src="js/jquery-2.1.4.min.js"></script>
